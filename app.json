@@ -1,0 +1,12 @@
+{
+  "pages": [
+    "pages/list/list",
+    "pages/detail/detail",
+    "pages/index/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "历史文化长廊",
+    "navigationBarBackgroundColor": "#00B26A",
+    "navigationBarTextStyle": "white"
+  }
+}

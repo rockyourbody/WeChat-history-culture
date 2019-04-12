@@ -1,0 +1,9 @@
+<!--pages/index.wxml-->
+<view class='container'>
+  <image class='pic' src='{{userInfo.avatarUrl}}'></image>
+  <button class='btn' bindgetuserinfo='handleGetUserInfo' style='display: {{isShow? "block": "none"}}' open-type='getUserInfo'>获取用户授权权限</button>
+  <text class='welcome'>热烈欢迎{{userInfo.nickName}}</text>
+  <view catchtap='userBtn' class='btn'>
+    <text>开启大鸡哥疯狂之旅</text>
+  </view>
+</view>

@@ -1,0 +1,18 @@
+<!--pages/template/template.wxml-->
+<template name="list">
+    <view class='temContainer'>
+        <view class='avatar_data'>
+            <image src="{{headImgSrc}}" />
+            <text>{{date}}</text>
+        </view>
+        <text class='chicken'>{{author}}</text>
+        <image class='detailPic' src="{{detail_img}}" />
+        <text class='detailText'>{{detail_content}}</text>
+        <view class='other'>
+            <image src="/images/icon/star.png" />
+            <text>{{love_count}}</text>
+            <image src="/images/icon/view.png" />
+            <text>{{attention_count}}</text>
+        </view>
+    </view>
+</template>
